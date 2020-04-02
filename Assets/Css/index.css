@@ -661,11 +661,11 @@ footer > a{
   .sekcija2 {
     grid-column: 1/2;
     grid-row: 4/5;
+    /* justify-self: center; */
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows:repeat(2,auto);
     padding-top:5%;
-    justify-items: center;
   }
     
     .sekcija2_slika {
@@ -675,9 +675,7 @@ footer > a{
     .sekcija2_text {
       grid-column: 1/2;
       grid-row: 2/3;
-      /* display: flex; */
-      /* flex-wrap: wrap; */
-      /* justify-items: center; */
+      justify-self:center;
     }
     
     .gore {
