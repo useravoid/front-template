@@ -464,6 +464,7 @@ footer > a{
     
     .sekcija2_slika {
       padding-bottom: 2%;
+      justify-self: center;
     }
     
     .sekcija2_text {
@@ -495,7 +496,8 @@ footer > a{
     }
     
     .sekcija2_brojevi2 {
-      padding-left:0; 
+      padding-left:5%; 
+      padding-right: 5%;
       font-weight: bold;
       display: inline-block;
     }
