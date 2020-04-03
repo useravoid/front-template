@@ -322,7 +322,7 @@ footer > a{
 
 
 /* mobilni */
-@media screen and (max-width:860px) {
+@media screen and (max-width:961px) {
   .grid-frejm {
       border:5px solid red;
       display: grid;
@@ -579,7 +579,4 @@ footer > a{
       flex-direction: column;
       align-items: center;
     }
-  
-  
-
 }
